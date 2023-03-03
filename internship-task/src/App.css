@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+
+.search_bar {
+  border-radius: 5px;
+  border-color: none;
+  margin-bottom: 10px;
+  padding: 5px 30px;
+}
+.heading {
+  color: white;
+  letter-spacing: 20px;
+}
+.button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+
+
+
+
