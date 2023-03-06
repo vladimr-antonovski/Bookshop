@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Josefin+Sans:wght@100&family=Reenie+Beanie&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -24,6 +27,30 @@ body {
 .button:hover {
   cursor: pointer;
 }
+.heading_two {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.books_section {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.author {
+  font-size: 40px;
+}
+.title {
+  font-size: 25px;
+  font-family: Reeanie Beanie;
+}
+.all_books {
+  flex-basis: 33.333%;
+}
+
 
 
 
