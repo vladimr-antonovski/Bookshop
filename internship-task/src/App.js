@@ -1,7 +1,20 @@
 import './App.css';
 import Books from './listofbooks.json';
+import { useState } from 'react'
 
 function App() {
+
+  const [inputText, setInputText] = useState("");
+
+  let inputHandler = (e) => {
+
+    let lowercase = e.target.value.toLowerCase();
+    setInputText(lowercase)
+  }
+
+
+
+
 
   return (
     <div className="App d-flex">
