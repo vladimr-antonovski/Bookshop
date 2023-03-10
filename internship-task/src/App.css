@@ -19,18 +19,23 @@ body {
 .books_container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .books {
   flex-basis: 33.333%;
   color: white;
-  justify-content: center;
 }
+
 .author {
   font-size: 50px;
 }
 .title {
   font-family: reenie beanie;
   font-size: 40px;
+}
+
+.genre {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
