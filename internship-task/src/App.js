@@ -22,7 +22,7 @@ function App() {
   <h1 className="heading">Enter a movie</h1>
 <div className="d-flex">
   <div>
-  <input id="search_bar" className="search_bar" placeholder="enter a movie..." />
+  <input id="search_bar" onChange={inputHandler} className="search_bar" placeholder="enter a movie..." />
   <label></label>
   </div>
 
