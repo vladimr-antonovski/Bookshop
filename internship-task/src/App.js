@@ -5,16 +5,24 @@ import { useState } from "react";
 function App() {
   const [value, setValue] = useState("");
 
-  const [books, setBooks] = useState(BOOKS.sort((item1, item2) => item1.author.localeCompare(item2.author)));
+  const [books, setBooks] = useState(
+    BOOKS.sort((item1, item2) => item1.author.localeCompare(item2.author))
+  );
 
   const onSearch = (e, value) => {
     e.preventDefault();
 
     const filteredBooks = value.trim().length
-      ? BOOKS.filter((book) => book.author.toLowerCase().includes(value.toLowerCase()))
+      ? BOOKS.filter((book) =>
+          book.author.toLowerCase().includes(value.toLowerCase())
+        )
       : BOOKS;
 
-    setBooks(filteredBooks.sort((item1, item2) => item1.author.localeCompare(item2.author)));
+    setBooks(
+      filteredBooks.sort((item1, item2) =>
+        item1.author.localeCompare(item2.author)
+      )
+    );
   };
 
   return (
