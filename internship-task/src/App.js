@@ -14,7 +14,8 @@ function App() {
 
     const filteredBooks = value.trim().length
       ? BOOKS.filter((book) =>
-          book.author.toLowerCase().includes(value.toLowerCase())
+          book.author.toLowerCase().includes(value.toLowerCase()) || book.genre.toLowerCase().includes(value.toLowerCase()) || book.title.toLowerCase().includes(value.toLowerCase())
+          
         )
       : BOOKS;
 
