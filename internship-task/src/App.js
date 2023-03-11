@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <p className="heading">Search</p>
+      <p className="heading">BOOKS</p>
 
       <div className="search_container">
         <form
@@ -47,12 +47,14 @@ function App() {
         <div className="books_container">
           {books.map((data) => (
             <div className="books" key={data.title}>
-              <div className="each_book">
+              <div>
                 <p className="author">{data.author}</p>
 
                 <p className="title">{data.title}</p>
 
                 <p className="genre">{data.genre}</p>
+
+                
               </div>
             </div>
           ))}
