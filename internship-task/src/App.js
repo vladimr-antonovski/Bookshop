@@ -13,9 +13,11 @@ function App() {
     e.preventDefault();
 
     const filteredBooks = value.trim().length
-      ? BOOKS.filter((book) =>
-          book.author.toLowerCase().includes(value.toLowerCase()) || book.genre.toLowerCase().includes(value.toLowerCase()) || book.title.toLowerCase().includes(value.toLowerCase())
-          
+      ? BOOKS.filter(
+          (book) =>
+            book.author.toLowerCase().includes(value.toLowerCase()) ||
+            book.genre.toLowerCase().includes(value.toLowerCase()) ||
+            book.title.toLowerCase().includes(value.toLowerCase())
         )
       : BOOKS;
 
@@ -54,8 +56,6 @@ function App() {
                 <p className="title">{data.title}</p>
 
                 <p className="genre">{data.genre}</p>
-
-                
               </div>
             </div>
           ))}

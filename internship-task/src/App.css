@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Josefin+Sans:wght@100&family=Reenie+Beanie&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Josefin+Sans:wght@100&family=Reenie+Beanie&display=swap");
 
 .App {
   text-align: center;
@@ -21,7 +20,6 @@ button:hover {
   font-weight: bold;
 }
 
-
 .heading {
   font-size: 50px;
   color: white;
@@ -32,7 +30,6 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- 
 }
 .books {
   flex-basis: 33.333%;
@@ -48,15 +45,6 @@ button:hover {
 }
 
 .genre {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
